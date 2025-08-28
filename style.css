@@ -1,0 +1,163 @@
+* {
+        overflow: auto;
+    }
+
+
+body {
+        background-color: #8ba1bb;
+        font-family: Arial;
+        margin-top: 60px;
+    }
+    P.p_head {
+        background-color: black;
+        color: white;
+        display: inline;
+        padding: 8px 20px;
+        margin-bottom: 20px;
+        margin-top: -20px;
+        font-weight: 700px;
+        font-size: 20px;
+    }
+     div.p_head1 {
+       
+        text-align: center;
+        margin-bottom: 20px;
+       
+        
+    }
+
+   
+    h1 {
+        text-align: center;
+        margin-top: 18px;
+    }
+    p.p_body {
+        
+      max-width: 400px;
+        font-size: 14px;
+       display: inline-block;
+        
+    }
+
+    div.p_body {
+        text-align: center;
+    }
+
+   div.separator {
+    background-color: black;
+    width: 30px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+   }
+
+     div.content {
+        background-color: white;
+        margin: 60px 10% 80px 10%;
+        padding: 0px 30px 30px 30px;
+        min-width: 350px;
+        box-shadow: 0px 0px 10px 10px rgb(0, 0, 0, 0.1);
+        overflow: visible;
+        
+       
+    }
+
+
+    
+    
+    img.image{
+        display: block;
+        max-height: 400px;
+        object-fit: cover;
+        min-height: 200px;
+        background-color: rgb(226, 221, 221);
+    }
+
+    div.col1 {
+        
+        width: 45%;
+        display: inline-block;
+        margin-right: 10%;
+        margin-top: 20px;
+        overflow: auto;
+
+    }
+
+
+    div.col2 {
+       
+        float: right;
+        width: 45%;
+        margin-top: 20px;
+        overflow: auto;
+
+    }
+
+    h2.h2_clients {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 5px solid rgb(160, 156, 156);
+        padding-bottom: 5px;
+        
+
+    }
+
+    h2.h2_stack {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 5px solid rgb(156, 154, 154);
+         padding-bottom: 5px;
+
+    }
+
+
+    div.services  p {
+        text-align: left;
+        font-size: 14px;
+
+    }
+
+     div.clientss  p {
+        text-align: center;
+        font-size: 14px;
+        border: 1px solid lightgray;
+        padding: 8px 10px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        display: inline-block;
+
+    }
+
+    table.table_stack p.number {
+        background-color: rgb(156, 154, 154);
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        padding-top: 4px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        margin: 0px;
+    }
+
+     table.table_stack td.td_details {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+
+     }
+
+     table.table_stack td {
+        vertical-align:top;
+     }
+
+     table.table_stack tr {
+        height: 20px;
+     }
